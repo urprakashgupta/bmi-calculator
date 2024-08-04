@@ -1,0 +1,93 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: yellowgreen; /* Light background */
+    }
+
+    .nav {
+        background-color: skyblue; /* Soft coral color */
+        padding: 20px;
+    }
+
+    .nav h2 {
+        color: white;
+        text-align: center;
+        margin: 0;
+        font-size: 1.8em;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+
+
+
+.container {
+    width: 90%; /* Use percentage for flexibility */
+    max-width: 575px;
+    height: auto; /* Adjust height based on content */
+    background-color: pink;
+    padding: 20px; /* Use consistent padding */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  #height,
+  #weight {
+    width: 100%; /* Full width of the container */
+    max-width: 150px;
+    height: 25px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+  #weight-guide {
+    margin-left: 0;
+    margin-top: 25px;
+    text-align: center; /* Center text for smaller screens */
+  }
+  
+  #results {
+    font-size: 2em; /* Relative size for scalability */
+    margin: 20px 0;
+    text-align: center; /* Center text for smaller screens */
+    color: darkblue;
+    letter-spacing : 2px;
+    font-weight : bold;
+  }
+  
+  button {
+    width: 100%; /* Full width of the container */
+    max-width: 150px;
+    height: 35px;
+    margin: 25px auto; /* Center the button */
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121;
+    background-color: aqua;
+    text-decoration: none;
+    border: 2px solid #212121;
+    font-size: 1.5em; /* Relative size for scalability */
+    display: block; /* Ensure button takes full width */
+  }
+  
+  h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    font-size: 2em; /* Relative size for scalability */
+    text-align: center; /* Center text for smaller screens */
+  }
+  
+  /* Media Queries */
+  @media (max-width: 600px) {
+    #height,
+    #weight {
+      max-width: 100%; /* Full width on smaller screens */
+    }
+  
+    button {
+      max-width: 100%; /* Full width on smaller screens */
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+  }
+  
